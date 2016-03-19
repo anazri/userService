@@ -4,7 +4,7 @@
 	<groupId>be.pvgroup.devoxx.microservice</groupId>
 	<artifactId>userService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>bookservice</name>
+	<name>userService</name>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
