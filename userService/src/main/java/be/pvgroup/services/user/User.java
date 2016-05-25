@@ -3,9 +3,11 @@ package be.pvgroup.services.user;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection="Users")
+@Document(collection=User.COLLECTION_NAME)
 public class User {
 
+	public static final String COLLECTION_NAME = "Users";
+	
 	@Id
 	private Long id;
 	private String firstName;
