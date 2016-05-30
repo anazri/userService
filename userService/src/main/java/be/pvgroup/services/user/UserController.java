@@ -23,7 +23,7 @@ import io.swagger.annotations.ApiParam;
 @RequestMapping(value = "/users")
 public class UserController {
 
-	@Inject UserRepository userRepository;
+	@Inject private UserRepository userRepository;
 	
 	@ApiOperation(value = "get a user by ID")
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
@@ -67,4 +67,5 @@ public class UserController {
 		userRepository.delete(id);
 		return new ResponseEntity<>(HttpStatus.GONE);
 	}
+	
 }

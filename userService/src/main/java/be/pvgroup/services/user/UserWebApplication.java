@@ -10,7 +10,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableSwagger2
-@EnableMongoRepositories("be.pvgroup.services.user")
+@EnableMongoRepositories("be.pvgroup.services")
 public class UserWebApplication {
 
 	protected Logger logger = Logger.getLogger(UserWebApplication.class

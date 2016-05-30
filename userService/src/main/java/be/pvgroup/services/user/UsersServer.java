@@ -13,7 +13,7 @@ public class UsersServer {
 
 	@Autowired
 	protected UserRepository userRepository;
-
+	
 	protected Logger logger = Logger.getLogger(UsersServer.class.getName());
 	
 	public static void main(String[] args) {
