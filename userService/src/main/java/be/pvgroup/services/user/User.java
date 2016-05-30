@@ -13,7 +13,6 @@ public class User {
 	private String firstName;
 	private String name;
 	private String email;
-	private Integer seq;
 	public User() {
 	}
 
@@ -54,13 +53,5 @@ public class User {
 
 	public void setEmail(String email) {
 		this.email = email;
-	}
-
-	public Integer getSeq() {
-		return seq;
-	}
-
-	public void setSeq(Integer seq) {
-		this.seq = seq;
 	}
 }
